@@ -55,7 +55,7 @@ header form ul [class$="glass"] {
     height: 100px;
     background-color: darkblue;
 }
-#promo .img {
+.img {
     /* DEBUG */
     height: 100px;
     background-color: yellow;
@@ -74,7 +74,14 @@ header form ul [class$="glass"] {
     /* DEBUG */
     margin: 3rem 0;
 }
-
+/* PLAYSTATION PLUS */
+#psplus {
+    background-color: #bebcbb;
+}
+.ghost-img {
+    height: 300px;
+    background-color: red;
+}
 
 
 
