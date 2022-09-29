@@ -49,12 +49,6 @@ header form ul [class$="glass"] {
     height: 100px;
     background-color: darkblue;
 }
-.box {
-    /* DEBUG */
-    width: 100%;
-    height: 100px;
-    background-color: darkblue;
-}
 .img {
     /* DEBUG */
     height: 100px;
@@ -91,15 +85,8 @@ header form ul [class$="glass"] {
     background-color: #161c3b;
     color:white
 }
-
-
-
-@media screen and (min-width: 960px) {
-    #first-banner .description {
-        width: 40%;
-        position: relative;
-        bottom:0;
-        left:0;
-    }
-
+footer {
+    background-color: #00439c;
+    color:white;
 }
+/* MEDIA QUERIES */
