@@ -1,0 +1,91 @@
+/* COMMON */
+
+/* HEADER */
+header {
+    max-height:100px;
+}
+.header-top {
+    background-color: black;
+    text-align: right;
+}
+.header-top img {
+    width: 80px;
+    padding: 10px 0;
+}
+ul {
+    list-style-type: none;
+}
+header form li {
+    margin-left: 20px;
+}
+.btn, .btn-dark {
+    border-radius: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+li [class$="down"] {
+    color: darkgrey;
+    font-size: .7rem;
+    margin-left: 5px
+}
+header form {
+    vertical-align: center;
+}
+header form ul [class$="glass"] {
+    color:black;
+    align-items: center;
+}
+/* FIRST-BANNER */
+#banner {
+    /* DEBUG */
+    width: 100%;
+    height: 400px;
+    background-color: blueviolet;
+}
+/* CARDS */
+.box {
+    /* DEBUG */
+    width: 100%;
+    height: 100px;
+    background-color: darkblue;
+}
+.box {
+    /* DEBUG */
+    width: 100%;
+    height: 100px;
+    background-color: darkblue;
+}
+#promo .img {
+    /* DEBUG */
+    height: 100px;
+    background-color: yellow;
+}
+.promo-bottom .box {
+    height: 70px;
+    background-color: orange;
+}
+/* GAMES */
+#games {
+    background-color: #1f1f1f;
+    color:white;
+}
+/* PS4 */
+#ps4 {
+    /* DEBUG */
+    margin: 3rem 0;
+}
+
+
+
+
+
+
+@media screen and (min-width: 960px) {
+    #first-banner .description {
+        width: 40%;
+        position: relative;
+        bottom:0;
+        left:0;
+    }
+
+}
