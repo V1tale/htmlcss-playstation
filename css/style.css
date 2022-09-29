@@ -82,8 +82,15 @@ header form ul [class$="glass"] {
     height: 300px;
     background-color: red;
 }
-
-
+/* MORE */
+#more {
+    padding: 2rem 0;
+}
+/* NOW */
+#psnow {
+    background-color: #161c3b;
+    color:white
+}
 
 
 
