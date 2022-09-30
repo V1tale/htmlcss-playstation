@@ -52,7 +52,7 @@ header form ul [class*="glass"] {
 #banner h3 {
     font-size: 2rem;
 }
-#banner button {
+#banner button, #second-banner button {
     background-color: #cd3d0f;
 }
 /* CARDS */
@@ -75,6 +75,12 @@ header form ul [class*="glass"] {
 }
 .promo-bottom i {
     font-size: .7rem;
+}
+/* SECOND BANNER */
+#second-banner {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    padding: 6rem 0 4rem;
 }
 /* GAMES */
 #games {
