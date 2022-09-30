@@ -108,9 +108,19 @@ header form ul [class*="glass"] {
 #psplus {
     background-color: #bebcbb;
 }
-.ghost-img {
-    height: 300px;
-    background-color: red;
+#psplus .img {
+    width:70%;
+    margin: 2rem 0;
+}
+#psplus img {
+    height:100%;
+}
+#psplus .btn-secondary {
+    color:#00439c;
+    background-color:#d9dadc;
+    border:0;
+    font-weight: bolder;
+    margin: 2rem 0 4rem;
 }
 /* MORE */
 #more {
