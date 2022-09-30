@@ -1,4 +1,7 @@
 /* COMMON */
+img {
+    max-width:100%;
+}
 
 /* HEADER */
 header {
@@ -57,16 +60,21 @@ header form ul [class*="glass"] {
     padding-top: 2rem;
 }
 #cards img {
-    width:100%;
-    border-radius: 10px;;
-}
-.promo-bottom .box {
-    height: 70px;
-    background-color: orange;
+    border-radius: 10px;
 }
 #cards h4 {
     font-size: .8rem;
     padding-top: 4rem;
+}
+/* PROMO */
+.promo-bottom img {
+    opacity:50%;
+}
+.promo-bottom h4 {
+    font-size: 1rem;
+}
+.promo-bottom i {
+    font-size: .7rem;
 }
 /* GAMES */
 #games {
@@ -103,3 +111,14 @@ header ul {
     margin:0;
 }
 /* MEDIA QUERIES */
+@media screen and (min-width: 992px) {
+    #promo .text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .promo-bottom img {
+        padding: 50px;
+    }
+}
