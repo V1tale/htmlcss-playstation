@@ -4,7 +4,16 @@ img {
 }
 .fa-trademark {
     font-size: .6rem;
-    margin: 5px;
+    margin:3px;
+    display:inline-block;
+    vertical-align: top;
+}
+.fa-registered {
+    font-size: 1rem;
+    margin:3px;
+    display:inline-block;
+    vertical-align: top;
+
 }
 /* HEADER */
 header {
@@ -93,8 +102,7 @@ header form ul [class*="glass"] {
 }
 /* PS4 */
 #ps4 {
-    /* DEBUG */
-    margin: 3rem 0;
+    padding: 2rem 0;
 }
 /* PLAYSTATION PLUS */
 #psplus {
