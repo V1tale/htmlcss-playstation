@@ -39,7 +39,10 @@ header form li {
     padding-bottom: 3px;
 }
 header li {
-    line-height: 2.5rem;
+    line-height: 2rem;
+}
+form .nav-link {
+    line-height: 2.6rem;
 }
 li [class$="down"] {
     color: darkgrey;
@@ -55,6 +58,29 @@ header form ul [class*="glass"] {
 }
 header .nav-link:hover {
     border-bottom: 2px solid #0070d1;
+}
+ .navbar-expand-lg {
+    position:relative;
+    padding-bottom:0;
+}
+
+.submenu {
+    width:100%;
+    background-color: white;
+    position: absolute;
+    top:4rem;
+    left: 0;
+    display:none;
+}
+header li:hover > .submenu {
+    display:block;
+}
+.submenu:hover {
+    display:block;
+}
+.submenu img {
+    width:5%;
+    padding-top: 3rem;
 }
 /* FIRST-BANNER */
 #banner {
