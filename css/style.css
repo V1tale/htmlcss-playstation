@@ -140,6 +140,13 @@ footer {
 header ul {
     margin:0;
 }
+/* SOCIAL */
+#social {
+    max-width:800px;
+    margin:auto;
+    text-align: center;
+    padding: 2rem 0;
+}
 /* MEDIA QUERIES */
 @media screen and (min-width: 992px) {
     #promo .text {
