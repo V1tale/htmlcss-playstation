@@ -38,6 +38,9 @@ header form li {
     padding-top: 3px;
     padding-bottom: 3px;
 }
+header li {
+    line-height: 2.5rem;
+}
 li [class$="down"] {
     color: darkgrey;
     font-size: .7rem;
@@ -49,6 +52,9 @@ header form {
 header form ul [class*="glass"] {
     color:black;
     align-items: center;
+}
+header .nav-link:hover {
+    border-bottom: 2px solid #0070d1;
 }
 /* FIRST-BANNER */
 #banner {
@@ -67,9 +73,22 @@ header form ul [class*="glass"] {
 #banner button, #second-banner button {
     background-color: #cd3d0f;
 }
+#banner button:hover, #second-banner button:hover {
+    border: 1px solid  white;
+    border-spacing: 10px;
+    border-collapse: separate;
+}
 /* CARDS */
 #cards {
     padding-top: 2rem;
+
+}
+#cards .box {
+ transition:1s;
+ cursor: pointer;
+}
+#cards .box:hover {
+    transform: scale(1.2);
 }
 #cards img {
     border-radius: 10px;
@@ -79,11 +98,18 @@ header form ul [class*="glass"] {
     padding-top: 4rem;
 }
 /* PROMO */
+#promo {
+    padding-bottom:2rem;
+}
 .promo-bottom .box {
     opacity:50%;
+    cursor:pointer;
 }
 .promo-bottom h4 {
     font-size: 1rem;
+}
+.promo-bottom .box:hover {
+    opacity:100%;
 }
 
 /* SECOND BANNER */
@@ -100,6 +126,13 @@ header form ul [class*="glass"] {
 }
 #games .box h4 {
     font-size: 1rem;
+}
+#games .box {
+    transition:1s;
+    cursor:pointer;
+}
+#games .box:hover {
+    transform:scale(1.2);
 }
 /* PS4 */
 #ps4 {
@@ -129,11 +162,18 @@ header form ul [class*="glass"] {
     padding: 2rem 0;
     text-align: center;
 }
+#more .box {
+    cursor: pointer;
+}
+#more .box:hover {
+    filter:brightness(40%);
+}
 /* NOW */
 #psnow {
     background-color: #161c3b;
     color:white
 }
+
 footer {
     background-color: #00439c;
     color:white;
