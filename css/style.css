@@ -31,16 +31,26 @@ li [class$="down"] {
 header form {
     vertical-align: center;
 }
-header form ul [class$="glass"] {
+header form ul [class*="glass"] {
     color:black;
     align-items: center;
 }
 /* FIRST-BANNER */
 #banner {
-    /* DEBUG */
-    width: 100%;
-    height: 400px;
-    background-color: blueviolet;
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+    padding-bottom: 50px;
+}
+#banner img {
+    width: 70%;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+#banner h3 {
+    font-size: 2rem;
+}
+#banner button {
+    background-color: #cd3d0f;
 }
 /* CARDS */
 .box {
@@ -88,5 +98,8 @@ header form ul [class$="glass"] {
 footer {
     background-color: #00439c;
     color:white;
+}
+header ul {
+    margin:0;
 }
 /* MEDIA QUERIES */
