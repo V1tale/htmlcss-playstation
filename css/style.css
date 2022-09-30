@@ -108,23 +108,25 @@ header form ul [class*="glass"] {
 #psplus {
     background-color: #bebcbb;
 }
-#psplus .img {
+#psplus .img, #psnow .img {
     width:70%;
     margin: 2rem 0;
 }
-#psplus img {
+#psplus img, #psnow img {
     height:100%;
 }
 #psplus .btn-secondary {
     color:#00439c;
     background-color:#d9dadc;
     border:0;
-    font-weight: bolder;
-    margin: 2rem 0 4rem;
+}
+#psplus button, #psnow button {
+    margin-bottom:6rem;
 }
 /* MORE */
 #more {
     padding: 2rem 0;
+    text-align: center;
 }
 /* NOW */
 #psnow {
