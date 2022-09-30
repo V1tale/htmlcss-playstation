@@ -2,7 +2,10 @@
 img {
     max-width:100%;
 }
-
+.fa-trademark {
+    font-size: .6rem;
+    margin: 5px;
+}
 /* HEADER */
 header {
     max-height:100px;
@@ -67,15 +70,13 @@ header form ul [class*="glass"] {
     padding-top: 4rem;
 }
 /* PROMO */
-.promo-bottom img {
+.promo-bottom .box {
     opacity:50%;
 }
 .promo-bottom h4 {
     font-size: 1rem;
 }
-.promo-bottom i {
-    font-size: .7rem;
-}
+
 /* SECOND BANNER */
 #second-banner {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
@@ -85,7 +86,10 @@ header form ul [class*="glass"] {
 /* GAMES */
 #games {
     background-color: #1f1f1f;
-    color:white;
+    color: white;
+}
+#games .box h4 {
+    font-size: 1rem;
 }
 /* PS4 */
 #ps4 {
