@@ -109,12 +109,16 @@ header li:hover > .submenu {
     padding-top: 2rem;
 
 }
-#cards .box {
+#cards .box img {
  transition:1s;
  cursor: pointer;
+ animation-name: cards;
+ position:relative;
 }
-#cards .box:hover {
-    transform: scale(1.2);
+#cards .box img:hover {
+    transform: scale(1.2) translate(0px, -40px);
+    box-shadow: 1px 1px 15px white;
+
 }
 #cards img {
     border-radius: 10px;
